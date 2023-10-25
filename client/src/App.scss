@@ -84,3 +84,13 @@ input {
   display: flex;
   flex-direction: column;
 }
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  width: 100vw;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+}

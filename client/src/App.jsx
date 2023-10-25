@@ -2,6 +2,7 @@ import Wallet from "./Wallet";
 import Transfer from "./Transfer";
 import "./App.scss";
 import { useState } from "react";
+import TopWallets from "./TopWallets";
 
 function App() {
   const [balance, setBalance] = useState(0);
@@ -16,6 +17,7 @@ function App() {
         setAddress={setAddress}
       />
       <Transfer setBalance={setBalance} address={address} />
+      <TopWallets/>
     </div>
   );
 }
